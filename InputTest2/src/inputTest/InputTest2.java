@@ -11,7 +11,7 @@ public class InputTest2 {
 		String str1, str2, str3, print = null;
 		int num1, num2, num3, ans = 0;
 		
-		System.out.println("정수 세 개를 입력 \nEx)3 5 10");
+		System.out.println("정수 세 개를 입력 \n예시)3 5 10");
 		str1 = sc.next();
 		str2 = sc.next();
 		str3 = sc.next();
