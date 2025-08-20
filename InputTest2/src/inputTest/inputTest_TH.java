@@ -11,8 +11,8 @@ public class inputTest_TH {
 		
 		a = 'a';
 		b = 'b';
-		A = Character.toUpperCase(a);
-		B = Character.toUpperCase(b);
+		A = Character.toUpperCase(a); // 'A'
+		B = Character.toUpperCase(b); // 'B'
 		print1 = "첫 번째 문제 답 => A, B";
 		
 		System.out.println(print1);

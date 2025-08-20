@@ -21,15 +21,15 @@ public class OperTask2 {
 		
 		max = num1;
 		max = max>num2 ? max : num2;
-		max = max>num1 ? max : num1;
+		max = max>num3 ? max : num3;
 		
 		min = num1;
-		min = min<num1 ? min : num2;
-		min = min<num1 ? min : num1;
+		min = min<num2 ? min : num2;
+		min = min<num3 ? min : num3;
 		
 		mid = num1!=max ? (num1!=min ? num1 : 0) : 0; 
-		mid = num2!=max ? (num1!=min ? num1 : 0) : 0; 
-		mid = num3!=max ? (num1!=min ? num1 : 0) : 0; 
+//		mid = num2!=max ? (num2!=min ? num2 : 0) : 0; 
+//		mid = num3!=max ? (num3!=min ? num3 : 0) : 0; 
 		
 		System.out.printf("중간값 : %d", mid);
 	}

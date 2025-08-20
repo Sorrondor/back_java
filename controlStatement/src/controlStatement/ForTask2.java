@@ -45,8 +45,8 @@ public class ForTask2 {
 //			if((i+1)%2 == 0) {
 //				count++;
 //				if(count == 7) {
-//					System.out.println(i+1);	
-//					break;
+//					S
+//					break;ystem.out.println(i+1);	
 //				}
 //			}
 //		}
