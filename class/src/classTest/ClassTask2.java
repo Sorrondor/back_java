@@ -15,7 +15,8 @@ class Market {
 		this.pPrice = pPrice;
 		this.pCount = pCount;
 	}
-	public void sell(Customer cus) {
+	public void sell(Customer cus) 
+	{
 		System.out.printf("<<물품을 구매합니다>>\n");
 		System.out.printf("%s님이 구매할 물품 이름:%s\n", cus.cName, pName);
 		System.out.printf("%s님이 구매할 물품 재고:%d개\n", cus.cName, pCount);
@@ -24,7 +25,8 @@ class Market {
 		System.out.printf("%s님의 현재 잔고:%d원\n", cus.cName, cus.cMoney);
 		System.out.printf("%s님이 구매하고 남은 물품 재고 수:%d개\n", cus.cName, pCount-1);
 		System.out.printf("%s님의 할인받은 금액:%d원\n", cus.cName, pPrice*cus.cDiscount/100);
-		System.out.printf("%s님이 남은 잔고:%d원\n", cus.cName, cus.cMoney-pPrice*cus.cDiscount/100);
+		System.out.printf("%s님이 남은 잔고:%d원\n", cus.cName,
+				cus.cMoney-pPrice*cus.cDiscount/100);
 		System.out.println("");
 	};
 	
