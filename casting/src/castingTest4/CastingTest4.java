@@ -45,14 +45,19 @@ public class CastingTest4 {
 		Product pd4 = new Product("캔디바", 500, 10);
 		Product pd5 = new Product("옥동자", 500, 10);
 		
+		ProductArr pArr1 = new ProductArr();
+		pArr1.enrollP(pd1);			
+		pArr1.enrollP(pd2);			
+		pArr1.enrollP(pd3);			
+		pArr1.enrollP(pd4);			
+		
 		Market mk1 = new Market();
 		MarketMember mkm1 = new MarketMember("고길동", "010-3333-5656", 50000, 0, 0);
 		MarketMember mkm2 = new MarketMember("마이클", "010-4444-5656", 40000, 0, 0);
 		MarketNonMember mknm1 = new MarketNonMember("심봉사", "010-5555-9898", 70000, 0, 0);
 		MarketNonMember mknm2 = new MarketNonMember("심청이", "010-6666-9898", 80000, 0, 4);
 		
-//		pd5.printP();
-		
+
 		System.out.println("<회원 구매이력>");
 		mk1.sellPtoMem(mkm1);
 		mk1.sellPtoMem(mkm2);

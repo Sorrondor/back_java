@@ -26,19 +26,19 @@ public class Market extends Product{
 	}	
 
 //	메서드
-	public void sellPtoMem(MarketMember cus) {
+	public void sellPtoMem(MarketMember cus
+			) {
 		 int discount = 0;
-		 discount = (int)(super.getPrice()/0.3);
+		 discount = (int)(super.getPrice()*0.3);
 
 		 System.out.printf("%s 회원님의 기존 잔고:%d원\n", cus.getName(), cus.getMoney());
-		 cus.setMoney(cus.getMoney()+(super.getPrice()-discount));
+		 cus.setMoney(cus.getMoney()-(super.getPrice()-discount));
 		 System.out.printf("%s 회원님의 남은 잔고:%d원\n", cus.getName(), cus.getMoney());
-		 System.out.printf("%"
-		 		+ "s 회원님이 할인받은 금액:%d원\n\n", cus.getName(), discount);
+		 System.out.printf("%s 회원님이 할인받은 금액:%d원\n\n", cus.getName(), discount);
 	}
 	public void sellPtoNMem(MarketNonMember cus) {
 		int discount = 0;
-		discount = (int)(super.getPrice()/0.05);
+		discount = (int)(super.getPrice()*0.05);
 		
 		System.out.printf("%s 비회원님의 기존 잔고:%d원\n", cus.getName(), cus.getMoney());
 		cus.setMoney(cus.getMoney()+(super.getPrice()-discount));

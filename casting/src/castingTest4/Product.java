@@ -47,18 +47,5 @@ public class Product {
 		this.price = price;
 		this.count = count;
 		
-		for(int i=0; i<nameEx.length; i++) {
-			if(nameEx[i] == "") {
-				this.nameEx[i] = name;							
-			}
-		}
-	}
-	public void printP() {
-		for(int i=0; i<nameEx.length; i++) {	
-			System.out.println(nameEx[i]);
-		}
-	}
-	
-//	메서드
-	
+	}	
 }
