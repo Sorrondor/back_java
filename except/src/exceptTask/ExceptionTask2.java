@@ -8,6 +8,7 @@ import chatting.BadWordException;
 // 만든 예외를 이용해서 메세지를 출력
 public class ExceptionTask2 {
    public static void main(String[] args) {
+	   System.out.println(System.getProperties());
 		Scanner sc = new Scanner(System.in);
 		String message = null;
 		
@@ -24,7 +25,8 @@ public class ExceptionTask2 {
 			System.out.println("! 사용하지 마세요");
 			System.out.println(e.getMessage());
 		    System.out.println(e.getClass());
-		   
+
+		    System.out.println(System.in);
 		}
    }
 }
