@@ -8,5 +8,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="lib" path="C:/back_0900_kjs/JAVA/resource/calc.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/back_0900_kjs/JAVA/resource/java-sdk v2.2/source/javaSDK-2.2-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/back_0900_kjs/JAVA/resource/java_mail_api/activation-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/back_0900_kjs/JAVA/resource/java_mail_api/mail-1.4.7.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
