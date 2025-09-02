@@ -27,6 +27,13 @@ public class ArrayListTest2 {
 		System.out.println(datas.size());
 		System.out.println(datas);
 		
+		if(datas.contains(50)) {
+//			정수 -> 정수
+//			wrapper 클래스
+			datas.remove(Integer.valueOf(80));
+		}
+		System.out.println(datas);
+		
 		try {
 			datas.get(0);
 		} catch (IndexOutOfBoundsException e) {
