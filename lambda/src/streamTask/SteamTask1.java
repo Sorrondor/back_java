@@ -1,4 +1,4 @@
-package streamTaski;
+package streamTask;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -35,7 +35,7 @@ public class SteamTask1 {
 //  5. 5개의 문자열을 모두 소문자로 변경 후 출력
 //  "Black", "WHITE", "reD", "yeLLow", "PInk"
 		ArrayList<String> ar5 = new ArrayList<String>(Arrays.asList("Black", "WHITE", "reD", "yeLLow", "PInk"));
-		ar5.stream().map((n) -> n.toUpperCase()).forEach((n) -> System.out.print(n + ","));
+		ar5.stream().map((n) -> n.toLowerCase().forEach((n) -> System.out.print(n + ","));
 		System.out.println();
 		
 //  6. "Apple", "banana", "Melon", "orange" 중 앞글자가 대문자인 문자열만 출력
