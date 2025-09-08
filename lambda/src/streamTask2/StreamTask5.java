@@ -44,9 +44,6 @@ public class StreamTask5 {
 		      });
 
 	      	System.out.println(ans);
-
-	      	
-	      	
 	      	
    }
 }
